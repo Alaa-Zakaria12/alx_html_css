@@ -2,10 +2,23 @@ body{
     display: flex;
     flex-direction: column;
 }
+header {
+    border-bottom: 2px solid #ccc;
+    background-color: #ccc;
+}
+.logo {
+    font-size: 2rem;
+    color: #ff0000;
+}
+
+a {
+    color: #3498db;
+}
 main{
     display: flex;
     flex-direction: row;
     flex: auto;
+    background-color: #e1f3ff;
 }
 article, aside {
     overflow-y: auto; 
@@ -15,4 +28,7 @@ article{
 }
 aside{
     flex: 1;
+}
+footer{
+    background-color: #ccc;
 }
