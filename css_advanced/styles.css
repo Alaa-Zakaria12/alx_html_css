@@ -120,59 +120,106 @@ li {
 
 
 .white{
-    display: flex;
-    margin: 20px;
-    padding: 50px;
-   
-    
+    margin: 50px;
+    padding: 50px; 
 }
 .white h2{
     text-align: center;
-    padding: 20px;
-    font-size: 25px;
+    padding-bottom: 60px;
+    font-size: 35px;
     font-family: 'Source Sans Pro';
 }
-.overlay_image{
-    
-    height: 40px;
-    
-    
+.flex{
+    display: flex;
+    justify-content: space-around;
 }
 
+.h2{
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.overlay_image1{
+    height: 40px;
+    position: absolute;
+    right: 41.5cm;
+    top: 41cm;
+}
+.overlay_image2{
+    height: 40px;
+    position: absolute;
+    top: 41cm;
+    right: 30cm;
+
+}
+.overlay_image3{
+    height: 40px;
+    position: absolute;
+    right: 19cm;
+    top: 41cm;
+}
+.overlay_image4{
+    height: 40px;
+    position: absolute;
+    right: 7.5cm;
+    top: 41cm;
+}
 .id{
     display: flex;
     color: #C271FF;
+    
+}
+.id-p{
+    color: #C271FF;
+    margin-left: 70px;
 }
 
 
 .id img{
     
-    height: 10%;
-    width: 10%;
+    height: 25px;
+    width: 25px;
 }
-h4{
-    padding: 5px;
+.id h4{
+    padding-top: 5px;
+    margin-left: 10px;
 }
 
 .rating{
+    display: flex;
     padding: 5px;
 }
-
 .membership{
-    display: flex; 
+    padding: 100px;
     background-color: #071629;
-    text-align: center;
-    padding: 70px; 
     color: white;
+    font-family: 'Source Sans Pro';
 }
-.membership div{
-margin: 100px;    
+.membership h2{
+   text-align: center;
+   font-size: 30px;
+   padding-bottom: 25px;
 }
+.membership-font{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px;
+    padding-top: 30px;
+}
+.membership img{
+    padding-top: 40px;
+}
+.font{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.637);
+}
+
 
 .button {
-    position: absolute;
-    margin-top: 260px;
-    margin-left: 750px;
+
+    margin-top: 85px;
+    margin-left: 740px;
     padding: 10px 30px;
     font-size: 18px;
     background-color: #C271FF; 
@@ -182,29 +229,56 @@ margin: 100px;
     cursor: pointer;
 }
 .faq{
+    font-family: 'Source Sans Pro';
     padding: 100px; 
+    margin-bottom: 150px;
 }
 .faq h2{
     font-size: 50px;
-    padding-left: 500px;
+    text-align: center;
+    margin-bottom: 25px;
 }
-.foot{
-    padding: 90px;
-    background-color: #071629;
-}
-
-i{
-    border-radius: 50%;
-    font-size: 50px;
-    float: right;
-    margin: 15px;
-    background-color: white;
+.right-faq, .left-faq{
+    margin-top: 25px;
+    margin: 50px;
+    width: 350px;
+    height: 242px;
     
 }
-.copy{
-    text-align: center;
-    color: white;
-    padding: auto;
-    align-self: center;
+.colorfaq{
+    color: rgba(61, 59, 59, 0.966);
+    
+} 
 
+.how{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+footer{
+    background-color: #071629;
+    height: 249px;
+    width: 100%;
+    color: white;
+    font-family: 'Source Sans Pro';
+}
+.i{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 100px 200px 0;
+}
+footer p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    opacity: 0.35;
+}
+.i-logo{
+    transform: scale(1.5);
 }
