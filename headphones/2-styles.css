@@ -110,7 +110,6 @@ button{
     line-height: 25px;
     text-align: center;
 }
-
 .what-img{
     display: flex;
     flex-direction: row-reverse;
@@ -132,6 +131,35 @@ button{
     margin-bottom: 75px;
     line-height: 15px;
 }
+.polygon-p{
+    width: 40%;
+    padding-top: 35px;
+    padding-left: 550px;
+    padding-bottom: 80px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.polygon-img{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.centered {
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+.polygon-img img{
+    padding-left: 45px;
+    padding-top: 10px;
+
+}
+
 
 /* mobile styles*/
 @media only screen and (max-width: 480px) {
